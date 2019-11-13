@@ -6,8 +6,15 @@ import org.junit.Test;
 
 import com.training.junit.arraysearchbubblesort.ArraySearchBubbleSort;
 
+/**
+ * 
+ * @author MManjula
+ *
+ */
 public class testArraySearchBubbleSort {
-
+	/**
+	 * tests if the elements in the array are sorted
+	 */
 	@Test
 	public void testSearchElementUsingBubbleSort() {
 		int array[] = ArraySearchBubbleSort.bubbleSort();
